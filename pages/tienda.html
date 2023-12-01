@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>tienda</title>
+</head>
+<body>
+    <header>
+        <nav class="navBarra">
+            <img src="../images/Logo_completo.png" alt="">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="acerca de.html">Acerca de</a> </li>
+                <li><a href="repertorio.html">Repertorio</a> </li>
+                <li><a href="eventos anteriores.html">Eventos anteriores</a> </li>
+                <li><a href="tienda.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section>
+            <h1>Tienda</h1>
+        </section> <!--estructura 2 genera  Cajas con todo el contenidol-->
+        <section class="tienda">
+            <article>
+                <img src="../images/Tienda/bolsa.webp" alt="">
+            </article>
+        </section>
+    </main>
+    <footer id="footer">
+        <article class="box_logo">
+            <img src="../images/Logo_simple.png" alt="">
+        </article>
+        <div class="titulo">
+            <h2>Contáctanos</h2>
+        </div>
+        <article class="box_formulario">
+            <form action="#">
+                <label for="nombre">
+                    Nombre:
+                    <br>
+                    <input type="Nombre">
+                </label>
+                <!-- <input type="text" placeholder="nombre:"> campo de texto-->
+                <br> <!--salto de linea-->
+                <label for="email">
+                    Email:
+                    <br>
+                    <input type="email">
+                </label>
+                <br>
+                <label for="mensaje">
+                    Mensaje:
+                </label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <p>Elegir contacto</p>
+                <select name="Contacto" id="Contacto">
+                    <option value="watsap"> watsap</option>
+                    <option value="feis"> feis</option>
+                    <option value="insta"> insta</option>
+                </select>
+                <input type="submit" value="enviar">
+                <br>
+                <input type="reset" value="borrar">
+            </form> <!--formulario -->
+            <br>
+        </article>
+        <article class="box_redes_sociales">
+            <img src="../icons/IG.png" alt="">
+            <img src="../icons/logo_face.png" alt="">
+            <img src="../icons/pngegg.png" alt="">
+        </article>
+    </footer>
+</body>
+</html>
